@@ -21,7 +21,6 @@ public class AssignLeave extends LaunchURL
 	public void AssignLeave1() throws InterruptedException
 	{
 		
-		
 		WebDriverWait wb=new WebDriverWait(driver, 20);
 		wb.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='quickLinkText' and text()='Assign Leave']")));
 		driver.findElement(By.xpath("(//span[@class='quickLinkText'])[1]")).click();
