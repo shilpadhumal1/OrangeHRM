@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utility.ListenersForProject"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="dashboard.AssignLeave">
+        <methods>
+          <include name="launchURL"/>
+          <include name="testCase2"/>
+          <include name="testCase1"/>
+          <include name="assignLeave2"/>
+        </methods>
+      </class> <!-- dashboard.AssignLeave -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

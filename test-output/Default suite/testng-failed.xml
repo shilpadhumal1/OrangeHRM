@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="launchandlogin.LaunchURL">
+        <methods>
+          <include name="testCase2"/>
+          <include name="testCase1"/>
+        </methods>
+      </class> <!-- launchandlogin.LaunchURL -->
+      <class name="dashboard.FirefoxParallel">
+        <methods>
+          <include name="logIn"/>
+          <include name="AssignLeave1"/>
+          <include name="launchURL"/>
+        </methods>
+      </class> <!-- dashboard.FirefoxParallel -->
+      <class name="dashboard.AssignLeave">
+        <methods>
+          <include name="launchURL"/>
+          <include name="testCase2"/>
+          <include name="AssignLeave1"/>
+          <include name="testCase1"/>
+          <include name="logIn"/>
+          <include name="assignLeave2"/>
+        </methods>
+      </class> <!-- dashboard.AssignLeave -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM">
+  <test name="Login" thread-count="8" parallel="classes">
+  <classes>
+  <class name="dashboard.AssignLeave"></class>
+   <class name="dashboard.FirefoxParallel"></class>
+  </classes>
+  </test> <!-- Login -->
+</suite> <!-- OrangeHRM -->
